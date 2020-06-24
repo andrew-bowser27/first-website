@@ -1,0 +1,43 @@
+/* This is your first stylesheet, not your last, and certainly not something to base
+your whole life on. Keep progressing, keep looking forward, keep thanking Jesus and GOD
+for all you are, and all you have! */
+
+html {
+  font-size: 10px;
+  font-family: 'Cinzel', serif;
+  background-color: #31312A;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #E8E416;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+img {
+  width: 580px;
+  display: block;
+  margin: 0 auto;
+  /* the <body> is a 'block element' and the <img> is an 'inline-element' -- we must apply a display: block property to it */
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 4px 4px 3px #424232;
+}
+
+p {
+
+}
+
+p, li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
